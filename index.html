@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            Etch-A-Sketch
+        </div>
+    </header>
+
+    
+    <div class="container">
+        <div class="menu">
+            <input type="color" id="colorBox">
+            <button id="color" class="active">Color</button>
+            <button id="eraser">Eraser</button>
+            <button id="clear">Clear</button>
+            <div class="rangeInfo">
+                16 * 16
+            </div>
+            <input type="range" min="4" max="64" id="noOfPixels" name="noOfPixels">        
+        </div>
+
+        <div id="grid">
+
+        </div>
+    </div>
+
+    <footer> 
+        <h2>Copyright &copysa9ar</h2>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
